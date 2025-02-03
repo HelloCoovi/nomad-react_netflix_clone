@@ -68,8 +68,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-weight: 300;
     line-height: 1.2;
-    background-color: ${(props) => props.theme.bgColor};
-    color: ${(props) => props.theme.textColor};
+    color:${(props) => props.theme.white.darker};
+    background-color: black;
   }
 `;
 
